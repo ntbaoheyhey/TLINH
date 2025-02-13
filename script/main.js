@@ -301,5 +301,18 @@ const resolveFetch = () => {
     resolve("Fetch done!");
   });
 };
+document.addEventListener("DOMContentLoaded", function () {
+  const button = document.getElementById("playMusicButton");
+  const audio = document.getElementById("valentineMusic");
 
+  button.addEventListener("click", function () {
+    if (audio.paused) {
+      audio.play();
+      button.textContent = "Pause Music";
+    } else {
+      audio.pause();
+      button.textContent = "Play Music";
+    }
+  });
+});
 resolveFetch().then(animationTimeline());
