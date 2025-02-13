@@ -308,11 +308,12 @@ document.addEventListener("DOMContentLoaded", function () {
   button.addEventListener("click", function () {
     if (audio.paused) {
       audio.play();
-      button.textContent = "Pause Music";
+      button.textContent = "⏸ Pause Music";
     } else {
       audio.pause();
-      button.textContent = "Play Music";
+      button.textContent = "🎵 Play Music";
     }
   });
 });
+
 resolveFetch().then(animationTimeline());
