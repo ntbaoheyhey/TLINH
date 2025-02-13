@@ -3,11 +3,8 @@ html {
 }
 
 body {
-  margin: 0;
-  font-family: "Playfair Display", serif;
-  color: #5a3e36; /* Màu chữ nâu nhẹ phù hợp với nền hồng */
+  font-family: "Georgia", serif;
 }
-
 
 .container {
   height: 100vh;
