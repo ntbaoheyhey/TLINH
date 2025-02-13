@@ -4,8 +4,10 @@ html {
 
 body {
   margin: 0;
-  font-family: "Work Sans", sans-serif;
+  font-family: "Playfair Display", serif;
+  color: #5a3e36; /* Màu chữ nâu nhẹ phù hợp với nền hồng */
 }
+
 
 .container {
   height: 100vh;
@@ -39,6 +41,8 @@ body {
 
 .one {
   font-size: 4.5rem;
+  font-weight: bold;
+  color: #3d2b1f; /* Màu nâu đậm hơn để nổi bật */
 }
 
 .one > img {
@@ -51,6 +55,7 @@ body {
 .two {
   font-size: 1.2rem;
   font-weight: lighter;
+  color: #754c29; /* Màu nâu sáng hơn */
 }
 
 .three {
@@ -213,8 +218,8 @@ body {
 
 .wish-hbd {
   font-size: 3em;
-  margin: 0;
-  /* text-transform: uppercase; */
+  font-weight: bold;
+  color: #8b5e3b; /* Tông màu ấm áp */
 }
 
 .wish h5 {
